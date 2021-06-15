@@ -8,10 +8,11 @@ h2{
 }
 
 p{
-  color:#8b8b8bcc
+  color:#8b8b8bcc;
 }
 body{
   background-color: #fffbf7;
+  background-image:url('img/bedu.png');
 }
 button{
   color:#fff;
