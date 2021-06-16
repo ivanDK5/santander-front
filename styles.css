@@ -1,6 +1,8 @@
 h1{
-  color:turquoise;
+  color:#110c66;
   font-size: 80px;
+  text-align: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h2{
@@ -11,10 +13,47 @@ p{
   color:#8b8b8bcc;
 }
 body{
-  background-color: #fffbf7;
-  background-image:url('img/bedu.png');
+  background-color:#E9F0FB;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+header{
+  display:flex;
+  
+}
+form{
+  display:flex;
+  flex-direction: column;
+  border: 2px solid navy;
+  border-radius: 30px;
+  background-color:#B4CFEA;
+  padding: 15px;
+  margin: 10px 10px 50px ;
+  width: auto;
+}
+
+label{
+  padding: 15px 0px;
 }
 button{
   color:#fff;
-  background-color: #025157;
+  background-color: navy;
+  margin: 20px 0px;
+}
+
+.content{
+  border:2px solid navy;
+  border-radius: 30px;
+  padding: 15px;
+  margin: 10px;
+  background-color:#ffff
+}
+
+.main{
+ display:flex;
+ flex-direction: column;
+  width:80%;
 }

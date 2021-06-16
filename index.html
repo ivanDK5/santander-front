@@ -8,36 +8,37 @@
   <title>Document</title>
 </head>
 <body>
-  <header>
-    <img src=img/capterra.png alt="capterra">
-  </header>
-  <h1>Mi primer etiqueta</h1> 
- 
-  <h2>Titulo 2</h2> 
-  <p>Lorem, ipsum dolor sit <b>amet consectetur adipisicing elit</b>. Qui, magni, deleniti nostrum aliquid et fuga placeat porro quis dolores corrupti, labore enim alias eius recusandae nam similique minima libero veniam?</p>
-  <h3>Titulo 3</h3> 
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <b>Esse at exercitationem neque modi, facilis consequuntur animi incidunt</b> libero voluptatem amet, sint numquam aperiam perspiciatis omnis ea nesciunt, autem voluptatum. Eum?</p>
-  <h4>Titulo 4</h4> 
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore explicabo perspiciatis beatae illo sunt. Temporibus <b>quidem illum delectus nulla</b> obcaecati nihil id? Delectus voluptatem laudantium veniam fuga iste animi necessitatibus!</p>
-  <h5>Titulo 5</h5> 
-  <p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit.</b> Sint distinctio impedit amet iure numquam alias exercitationem mollitia facere laboriosam, nisi quos id nostrum assumenda adipisci modi iusto voluptate cumque qui.</p>
-  <h6>Titulo 6</h6> 
-
-  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae harum sit nesciunt tenetur quae. Nobis <b>nihil consectetur asperiores</b> animi beatae officiis voluptatum voluptates magni cum, mollitia pariatur, impedit similique ullam.</p>
-  <!-- <input type="text"><br> -->
-  <form action="">
-    <label>Nombre:</label><br>
-    <input type="text"><br>
-    <label>Apellido:</label><br>
-    <input type="text"><br>
-    <label>Edad:</label><br>
-    <input type="number"><br>
-    <label>Email:</label><br>
-    <input type="email"><br>
-    <label>Password:</label><br>
-    <input type="password"><br>
-    <button type="submit">Enviar &rarr;</button>
-  </form>
-  
+ <div class="main">
+    <header>
+      <img src=img/capterra.png alt="capterra">
+    </header>
+    <h1>Mi primer etiqueta</h1> 
+  <div class="content">
+      <h2>Titulo 2</h2> 
+      <p>Lorem, ipsum dolor sit <b>amet consectetur adipisicing elit</b>. Qui, magni, deleniti nostrum aliquid et fuga placeat porro quis dolores corrupti, labore enim alias eius recusandae nam similique minima libero veniam?</p>
+      <h3>Titulo 3</h3> 
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <b>Esse at exercitationem neque modi, facilis consequuntur animi incidunt</b> libero voluptatem amet, sint numquam aperiam perspiciatis omnis ea nesciunt, autem voluptatum. Eum?</p>
+      <h4>Titulo 4</h4> 
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore explicabo perspiciatis beatae illo sunt. Temporibus <b>quidem illum delectus nulla</b> obcaecati nihil id? Delectus voluptatem laudantium veniam fuga iste animi necessitatibus!</p>
+      <h5>Titulo 5</h5> 
+      <p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit.</b> Sint distinctio impedit amet iure numquam alias exercitationem mollitia facere laboriosam, nisi quos id nostrum assumenda adipisci modi iusto voluptate cumque qui.</p>
+      <h6>Titulo 6</h6> 
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae harum sit nesciunt tenetur quae. Nobis <b>nihil consectetur asperiores</b> animi beatae officiis voluptatum voluptates magni cum, mollitia pariatur, impedit similique ullam.</p>
+    </div>
+    <!-- <input type="text"><br> -->
+    <form action="">
+      <label for="name">Nombre:</label>
+      <input id ="name" type="text">
+      <label for="lastname">Apellido:</label>
+      <input id="lastname" type="text">
+      <label for="age">Edad:</label>
+      <input id="age"type="number" min="0" max="150">
+      <label for="email">Email:</label>
+      <input id="email" type="email">
+      <label for="password">Password:</label>
+      <input id=" password" type="password">
+      <button type="submit">Enviar &rarr;</button>
+    </form>
+  </div>
 </body>
 </html>
