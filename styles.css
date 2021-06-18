@@ -1,3 +1,60 @@
+body{
+  background-color:#fffbf7;
+ 
+  font-family: 'Courier New', Courier, monospace;
+}
+.header{
+  display:inline-block;
+  width:100%;
+  margin:40px 20px 20px;
+  font-size: 0px;
+}
+
+.header > * {
+  display:inline-block;
+  font-size: 16px;
+  vertical-align: middle;
+  height: 100%;
+  font-family: sans-serif;
+}
+.header > nav > ul > li {
+  display:inline;
+  margin: 0 25px;
+  color:#025157;
+}
+
+.logo{
+  width:15%;
+  text-align: center;
+}
+.navbar{
+  width:70%;
+  text-align: center;
+  line-height: 45px;
+}
+.actions{
+  display:inline;
+  width:15%;
+  text-align: right;
+}
+
+.actions > *{
+  font-size: 14px;
+  margin:0 10px;
+}
+
+.actions > a{
+  color:#67b54b;
+}
+
+.actions >button {
+  color:#ffff;
+  background-color:#67b54b;
+  padding:12px 14px;
+  border:none;
+  border-radius: 5px;
+}
+
 h1{
   color:#110c66;
   font-size: 80px;
@@ -12,18 +69,7 @@ h2{
 p{
   color:#8b8b8bcc;
 }
-body{
-  background-color:#E9F0FB;
-  display:flex;
-  flex-direction:column;
-  align-items: center;
-  justify-content: center;
-  font-family: 'Courier New', Courier, monospace;
-}
-header{
-  display:flex;
-  
-}
+
 form{
   display:flex;
   flex-direction: column;
@@ -42,18 +88,4 @@ button{
   color:#fff;
   background-color: navy;
   margin: 20px 0px;
-}
-
-.content{
-  border:2px solid navy;
-  border-radius: 30px;
-  padding: 15px;
-  margin: 10px;
-  background-color:#ffff
-}
-
-.main{
- display:flex;
- flex-direction: column;
-  width:80%;
 }
