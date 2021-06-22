@@ -1,5 +1,5 @@
 body{
-  background-color:#fffbf7;
+  background-color:#f18417;
  
   font-family: 'Courier New', Courier, monospace;
 }
@@ -8,6 +8,7 @@ body{
   width:100%;
   margin:40px 20px 20px;
   font-size: 0px;
+  background-color: #fffbf7;;
 }
 
 .header > * {
