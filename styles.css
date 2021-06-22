@@ -6,8 +6,17 @@ body{
 .header{
   display:inline-block;
   width:100%;
-  margin:40px 20px 20px;
+  margin:20px 20px 0 20px;
   font-size: 0px;
+  
+}
+
+.header_fixed{
+  position:fixed;
+  background-color:#ffff;
+  top:0;
+  left:0;
+  right:0;
 }
 
 .header > * {
@@ -66,11 +75,11 @@ h2{
   color:#46484c;
 }
 
-p{
+.label{
   color:#8b8b8bcc;
 }
 
-form{
+.form{
   display:flex;
   flex-direction: column;
   border: 2px solid navy;
@@ -88,4 +97,39 @@ button{
   color:#fff;
   background-color: navy;
   margin: 20px 0px;
+}
+
+.publicidad{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  margin:150px 150px;
+}
+
+.publicidad_title{
+  color:#025157;
+  font-weight: 800;
+  
+}
+
+.publicidad_video{
+  display:flex;
+  flex: 1;
+  flex-direction:column;
+  justify-items: center;
+  align-items: center;
+  
+  
+}
+
+.publicidad_descripcion{
+  flex:1;
+ }
+
+.publicidad_button{
+  border:none;
+  border-radius: 5px;
+  color:#ffff;
+  background-color:#025157;
+  font-size: 18px;
 }
