@@ -95,8 +95,10 @@ label{
 }
 button{
   color:#fff;
-  background-color: navy;
+  background-color:#025157;
   margin: 20px 0px;
+  border:none;
+  border-radius:5px;
 }
 
 .publicidad{
@@ -106,10 +108,14 @@ button{
   margin:150px 150px;
 }
 
-.publicidad_title{
+.title{
   color:#025157;
   font-weight: 800;
   
+}
+
+.font-medium{
+  font-size: 50px;
 }
 
 .publicidad_video{
@@ -132,4 +138,80 @@ button{
   color:#ffff;
   background-color:#025157;
   font-size: 18px;
+}
+
+.brands{
+  display:flex;
+  flex-direction:row;
+  padding:10% 15%;
+  background-color:#a1d683;
+  justify-content: space-between;
+}
+
+.brands_description{
+  margin:0px 5% 0 0;
+  flex:2;
+}
+.card{
+  display:flex;
+  flex-direction:column;
+  position:relative;
+  border-radius: 15px;
+  background-color:#ffff;
+  width:100%;
+  flex:1;
+  max-width: 370px;
+}
+
+.card-image{
+  border-radius: 15px 15px 0 0;
+  width:100%;
+  position:relative;
+}
+
+.card-content{
+  display:flex;
+  flex-direction:column;
+  padding:5%;
+  
+}
+
+.company{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  border:none;
+  border-radius: 50%;
+  position:absolute;
+  background-color:#f9da73;
+  width: 100px;
+  height:100px;
+  top:220px;
+  right:20px;
+}
+.card-info{
+  display:flex;
+}
+
+.icon{
+  width:50px;
+  height:30px;
+  text-align:center;
+  align-self: center;
+  margin:0 15px;
+}
+.card-actions{
+  width:100%; 
+  background-color:#025157;
+  height:50px; 
+  border:none;
+  border-radius: 10px;
+}
+
+.action-button{
+  background-color:#025157;
+  height:50px; 
+  border:none;
+  border-radius: 10px;
+  padding:0 20px;
 }
