@@ -147,6 +147,7 @@ figure{
 .brands{
   display:flex;
   flex-direction:row;
+  position: relative;
   padding:10% 15%;
   background-color:#a1d683;
   justify-content: space-between;
@@ -159,7 +160,6 @@ figure{
 .card{
   display:flex;
   flex-direction:column;
-  position:relative;
   border-radius: 15px;
   background-color:#ffff;
   width:100%;
@@ -167,7 +167,7 @@ figure{
   max-width: 370px;
 }
 
-.card-image{
+.card-image,.card-image > img{
   border-radius: 15px 15px 0 0;
   width:100%;
   position:relative;
@@ -190,7 +190,7 @@ figure{
   background-color:#f9da73;
   width: 100px;
   height:100px;
-  top:220px;
+  bottom:-20px;
   right:20px;
 }
 .card-info{
