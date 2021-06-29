@@ -64,7 +64,9 @@ body{
   border:none;
   border-radius: 5px;
 }
-
+.titles{
+  margin-top:250px;
+}
 h1{
   color:#110c66;
   font-size: 80px;
@@ -386,6 +388,9 @@ figure{
 
   h1{
     font-size: 30px;
+  }
+  .titles{
+    margin-top: 90px;
   }
 }
 /** dispositivos pequeños en vista landscape (horizontal) */
