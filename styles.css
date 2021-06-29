@@ -463,6 +463,13 @@ figure{
   position: relative;
 }
 
+.how-does-it-work header h2{
+  font-size:xx-large;
+}
+.how-does-it-work >header > p{
+  margin:2%;
+}
+
   
 }
 /** dispositivos pequeños en vista landscape (horizontal) */
