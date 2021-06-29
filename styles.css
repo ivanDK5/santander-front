@@ -405,6 +405,14 @@ figure{
     margin: 10px 10px 50px ;
     width: auto;
   }
+
+  .publicidad{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    margin:150px 150px;
+  }
+  
   
 }
 /** dispositivos pequeños en vista landscape (horizontal) */
