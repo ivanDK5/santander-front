@@ -83,15 +83,18 @@ h2{
 }
 
 .form{
-  display:flex;
-  flex-direction: column;
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
   border: 2px solid navy;
   border-radius: 30px;
   background-color:#B4CFEA;
   padding: 15px;
-  margin: 10px 10px 50px ;
+  margin: 10px 10px 50px;
   width: auto;
+  gap:5%;
 }
+
+
 
 label{
   padding: 15px 0px;
@@ -392,6 +395,17 @@ figure{
   .titles{
     margin-top: 90px;
   }
+  .form{
+    display:flex;
+    flex-direction: column;
+    border: 2px solid navy;
+    border-radius: 30px;
+    background-color:#B4CFEA;
+    padding: 15px;
+    margin: 10px 10px 50px ;
+    width: auto;
+  }
+  
 }
 /** dispositivos pequeños en vista landscape (horizontal) */
 @media (min-width: 576px) and (max-width: 767px) {
