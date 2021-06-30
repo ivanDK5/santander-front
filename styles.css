@@ -64,7 +64,9 @@ body{
   border:none;
   border-radius: 5px;
 }
-
+.titles{
+  margin-top:250px;
+}
 h1{
   color:#110c66;
   font-size: 80px;
@@ -81,15 +83,18 @@ h2{
 }
 
 .form{
-  display:flex;
-  flex-direction: column;
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
   border: 2px solid navy;
   border-radius: 30px;
   background-color:#B4CFEA;
   padding: 15px;
-  margin: 10px 10px 50px ;
+  margin: 10px 10px 50px;
   width: auto;
+  gap:5%;
 }
+
+
 
 label{
   padding: 15px 0px;
@@ -373,3 +378,115 @@ figure{
   font-size: 15px ;
 }
 
+/** dispositivos móviles en vista viewport (vertical) */
+@media (max-width: 575px) {
+  body{
+    background-color:#9bffbd;
+    width: 100%; 
+  }
+
+  .navbar,.actions {
+    display:none;
+  }
+
+  h1{
+    font-size: 30px;
+  }
+  .titles{
+    margin-top: 90px;
+  }
+  .form{
+    display:flex;
+    flex-direction: column;
+    border: 2px solid navy;
+    border-radius: 30px;
+    background-color:#B4CFEA;
+    padding: 15px;
+    margin: 10px 10px 50px ;
+    width: auto;
+  }
+  .form-submit{
+    width:100%;
+   }
+  .publicidad{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    margin:20px 10px;
+  }
+  
+  .features{
+    display:grid;
+    background-color: #025157;
+   
+    /* grid-template-columns:300px 300px; */
+  /*   grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,300px); */
+    /* grid-template: repeat(2, 1fr) / repeat(2, 330px); */
+    grid-template: repeat(4, 1fr) / repeat(1, 1fr);
+    /* grid-template-columns: 1fr 1fr; */
+    padding:5% 5%;
+  }
+
+  .feature-image{
+    display:none;
+  }
+
+  
+  .brands{
+    display:flex;
+    flex-direction:column;
+    position: relative;
+    padding:10% 15%;
+    background-color:#a1d683;
+    justify-content: space-between;
+  }
+  .steps{
+    display:grid;
+    grid-template: repeat(4, 1fr)/1fr;
+    gap:1%;
+  
+  }
+  .how-work-card{
+    display:flex;
+    flex-direction: row-reverse;
+  }
+  .how-work-image{
+    position: initial;
+    flex:1;
+    align-self:center;
+    max-height: 100%;
+  }
+
+  .how-work-card-content{
+    padding:10px;
+  }
+  .how-does-it-work  .steps .how-work-card  {
+    position: relative;
+  }
+
+  .how-does-it-work header h2{
+    font-size:xx-large;
+  }
+  .how-does-it-work >header > p{
+    margin:2%;
+  }
+
+  
+}
+/** dispositivos pequeños en vista landscape (horizontal) */
+@media (min-width: 576px) and (max-width: 767px) {
+  
+}
+/** dispositivos medianos (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+  
+}
+/** dispositivos grandes (desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+}
+/** dispositivos extra grandes (monitores grandes, tvs) */
+@media (min-width: 1200px) {
+  
+}
