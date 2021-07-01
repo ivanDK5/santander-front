@@ -37,11 +37,11 @@ body{
   width:15%;
   text-align: center;
 }
-.navbar{
+/* .navbar{
   width:70%;
   text-align: center;
   line-height: 45px;
-}
+} */
 .actions{
   display:inline;
   width:15%;
@@ -385,9 +385,9 @@ figure{
     width: 100%; 
   }
 
-  .navbar,.actions {
+/*   .navbar,.actions {
     display:none;
-  }
+  } */
 
   h1{
     font-size: 30px;
