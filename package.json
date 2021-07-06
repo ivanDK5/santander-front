@@ -1,0 +1,22 @@
+{
+  "name": "santanderfront",
+  "version": "1.0.0",
+  "description": "git init",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivanDK5/santander-front.git"
+  },
+  "author": "Ivan Gutierrez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ivanDK5/santander-front/issues"
+  },
+  "homepage": "https://github.com/ivanDK5/santander-front#readme",
+  "dependencies": {
+    "sass": "^1.35.1"
+  }
+}
