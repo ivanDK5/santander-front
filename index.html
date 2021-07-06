@@ -111,12 +111,10 @@
   <p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit.</b> Sint distinctio impedit amet iure numquam alias exercitationem mollitia facere laboriosam, nisi quos id nostrum assumenda adipisci modi iusto voluptate cumque qui.</p>
   <h6>Titulo 6</h6> 
   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae harum sit nesciunt tenetur quae. Nobis <b>nihil consectetur asperiores</b> animi beatae officiis voluptatum voluptates magni cum, mollitia pariatur, impedit similique ullam.</p>
-  <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button> 
-</section> 
- 
+
    
     <!-- <input type="text"><br> -->
-    <form class= "form" action="">
+  <!--   <form class= "form" action="">
       <label for="name">Nombre:</label>
       <input id ="name" type="text">
       <label for="lastname">Apellido:</label>
@@ -128,7 +126,36 @@
       <label for="password">Password:</label>
       <input id=" password" type="password">
       <button type="submit">Enviar &rarr;</button>
+    </form> -->
+    <form>
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" id="name" aria-describedby="name">
+      </div>
+      <div class="form-group">
+        <label for="lastname">LastName</label>
+        <input type="text" class="form-control" id="lastname" aria-describedby="lastname">
+      </div>
+      <div class="form-group">
+        <label for="age">Age</label>
+        <input type="number" class="form-control" id="age" aria-describedby="age">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1">
+      </div>
+      <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+      </div>
+      <button type="button" class="btn btn-primary">Submit</button>
     </form>
+
     <section  class="publicidad">
       <div class="publicidad_video">
         <video src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4 " controls width="auto" height="200px" poster="img/video_presentacion.jpeg"></video>
