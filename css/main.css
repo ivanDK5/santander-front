@@ -46,5 +46,23 @@
   width: 180px;
   margin-bottom: 15px;
 }
+.blog .card .metadata .category {
+  color: #67b54b;
+}
+.blog .card .metadata .read-time {
+  color: #979797;
+}
+.blog .card .author {
+  display: flex;
+}
+.blog .card .author > p {
+  display: flex;
+  align-content: center;
+  margin: 0;
+}
+.blog .card .author > img {
+  border-radius: 50%;
+  width: 15%;
+}
 
 /*# sourceMappingURL=main.css.map */
