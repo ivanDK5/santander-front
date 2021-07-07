@@ -75,4 +75,23 @@
     }
    
   }
+ 
+}
+.footer{
+  h2{
+    color:$dark-green-title;
+    font-weight: 700;
+  }
+  .footer-menu {
+    ul  {
+    list-style: none;
+  }
+ 
+  h4{
+    color:$dark-green-title;
+     font-weight: 600;
+    font-size: medium;
+    
+  }
+ }
 }
