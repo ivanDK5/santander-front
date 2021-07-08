@@ -11,8 +11,8 @@ body{
   
 }
 
-.header_fixed{
-  position:fixed;
+.header_sticky{
+  position:sticky;
   background-color:#ffff;
   top:0;
   left:0;

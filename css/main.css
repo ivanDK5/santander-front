@@ -78,4 +78,8 @@
   font-size: medium;
 }
 
+.header_sticky form > a {
+  margin-right: 20px;
+}
+
 /*# sourceMappingURL=main.css.map */
