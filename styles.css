@@ -476,6 +476,12 @@ figure{
 }
 /** dispositivos pequeños en vista landscape (horizontal) */
 @media (min-width: 576px) and (max-width: 767px) {
+  .publicidad{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    margin:20px 10px;
+  }
   .brands{
     display:flex;
     flex-direction:column;
