@@ -11,8 +11,8 @@ body{
   
 }
 
-.header_fixed{
-  position:fixed;
+.header_sticky{
+  position:sticky;
   background-color:#ffff;
   top:0;
   left:0;
@@ -476,7 +476,51 @@ figure{
 }
 /** dispositivos pequeños en vista landscape (horizontal) */
 @media (min-width: 576px) and (max-width: 767px) {
+  .publicidad{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    margin:20px 10px;
+  }
+  .brands{
+    display:flex;
+    flex-direction:column;
+    position: relative;
+    padding:10% 15%;
+    background-color:#a1d683;
+    justify-content: space-between;
+  }
+  .steps{
+    display:grid;
+    grid-template: repeat(4, 1fr)/1fr;
+    gap:1%;
   
+  }
+  .how-work-card{
+    display:flex;
+    flex-direction: row-reverse;
+  }
+  .how-work-image{
+    position: initial;
+    flex:1;
+    align-self:center;
+    max-height: 100%;
+  }
+
+  .how-work-card-content{
+    padding:10px;
+  }
+  .how-does-it-work  .steps .how-work-card  {
+    position: relative;
+  }
+
+  .how-does-it-work header h2{
+    font-size:xx-large;
+  }
+  .how-does-it-work >header > p{
+    margin:2%;
+  }
+
 }
 /** dispositivos medianos (tablets) */
 @media (min-width: 768px) and (max-width: 991px) {

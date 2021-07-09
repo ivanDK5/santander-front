@@ -65,4 +65,21 @@
   width: 15%;
 }
 
+.footer h2 {
+  color: #025157;
+  font-weight: 700;
+}
+.footer .footer-menu ul {
+  list-style: none;
+}
+.footer .footer-menu h4 {
+  color: #025157;
+  font-weight: 600;
+  font-size: medium;
+}
+
+.header_sticky form > a {
+  margin-right: 20px;
+}
+
 /*# sourceMappingURL=main.css.map */
